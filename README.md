@@ -12,5 +12,5 @@ Ardunino project using an ESP32 and a WaveShare 4.2" ePaper display to retrieve 
 - ePaper module with standard GxEPD2 wiring (BUSY = 4, RST = 16, DC = 17, CS = 5 (SS), CLK = 18 (SCK), DIN = 23 (MOSI), GND = GND, VCC = 3V)
 
 ## Showcase
-This picture is showing the raw assembly. For the final version, I will put the display and the ESP32 in an 6x9cm (2.5x3.5") picture frame and add three buttons.
+This picture is showing the raw assembly. For the final version, I will put the display and the ESP32 in an 6x9cm (2.5x3.5") picture frame and add three buttons to toggle between incoming, outgoing and missed/recorded calls.
 ![missed_calls_list](https://raw.githubusercontent.com/jfraf/fritzbox-calllist/master/example-missed_calls.jpg "missed calls")
