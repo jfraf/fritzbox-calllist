@@ -344,7 +344,7 @@ int get_GPIO_wake_up(){
 // set deep sleep parameters and enter deep sleep mode
 void deep_sleep() {
   esp_sleep_enable_timer_wakeup(updateinterval);
-  esp_sleep_pd_config(ESP_PD_DOMAIN_RTC_PERIPH, ESP_PD_OPTION_ON);
+  esp_sleep_pd_config(ESP_PD_DOMAIN_RTC_SLOW_MEM, ESP_PD_OPTION_ON);
   gpio_pullup_dis(GPIO_NUM_12);
   gpio_pulldown_en(GPIO_NUM_12);
   gpio_pullup_dis(GPIO_NUM_13);
